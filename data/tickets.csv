@@ -4,3 +4,5 @@ id,description,priority,status,resolution_hours
 3,Laptop is running very slow,Low,Closed,24
 4,VPN connection keeps dropping,High,Open,12
 5,Password reset request,Low,Closed,1
+6,Software installation request,Medium,Open,16
+7,Printer not responding,High,Closed,3
