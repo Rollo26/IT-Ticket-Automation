@@ -1,88 +1,50 @@
 # IT Ticket Automation System
 
-A Python automation project that processes IT service desk tickets, classifies issues,
-analyzes key metrics, and generates Excel and PDF management reports.
+## Overview
+The IT Ticket Automation System is a Python-based automation project designed
+to classify and analyze IT service desk tickets. It helps IT teams identify
+common issues, trends, and workload distribution across ticket categories.
+
+This project demonstrates real-world Python automation, clean code practices,
+and modular system design.
 
 ---
 
 ## Features
-- Automated ticket classification
-- KPI analysis (ticket volume, categories, resolution time)
-- Excel report generation
-- PDF summary report
-- Logging and error handling
+- Automatic ticket classification
+- Ticket category analysis and reporting
+- Modular Python architecture
+- Logging of automation workflow
+- Easy to extend with analytics or machine learning
 
 ---
 
-## Technologies Used
-- Python
+## Tech Stack
+- Python 3
 - Pandas
-- OpenPyXL
-- ReportLab
 - Logging
+- Git & GitHub
 
 ---
 
 ## Project Structure
+IT-Ticket-AutomationSystem/
+│
+├── main.py # Entry point
+├── ticket_loader.py # Loads ticket data
+├── ticket_classifier.py # Classifies tickets
+├── ticket_analyzer.py # Analyzes ticket trends
+├── logger.py # Logging configuration
+├── data/ # Sample ticket data
+├── requirements.txt # Dependencies
+├── .flake8 # Code style configuration
+└── README.md
+
 
 ---
 
 ## How to Run the Project
 
-1. Clone the repository
-2. Create and activate a virtual environment
-3. Install dependencies
-4. Run the automation
-
+### 1. Clone the repository
 ```bash
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python main.py
-
-⚠️ Make sure **all backticks** are included exactly as shown.
-
----
-
-## 🟢 STEP 4: Save the File
-
-Press:
-
----
-
-## 🟢 STEP 5: Preview the README (Optional but Cool)
-
-In VS Code:
-1. Right-click inside `README.md`
-2. Click:
-
-You’ll see it **exactly as it will appear on GitHub**.
-
----
-
-# 🧠 WHY THIS README IS STRONG
-
-This README:
-- Explains the **problem**
-- Shows **technical depth**
-- Proves you understand **project structure**
-- Makes your project easy to run
-- Looks **professional and mature**
-
-Many candidates skip this — you didn’t.
-
----
-
-# ✅ FINAL CHECKPOINT
-
-Reply with one of these:
-
-✅ **“README created and preview looks good”**  
-❌ Or tell me **what doesn’t look right**
-
-After this, next logical steps are:
-- GitHub upload  
-- CV wording  
-- Optional email automation / dashboard  
-
-You’re finishing this like a real engineer 👏
+cd IT-Ticket-Automation
