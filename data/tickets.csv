@@ -1,0 +1,6 @@
+id,description,priority,status,resolution_hours
+1,User cannot connect to WiFi,High,Open,5
+2,Email not syncing on mobile,Medium,Open,8
+3,Laptop is running very slow,Low,Closed,24
+4,VPN connection keeps dropping,High,Open,12
+5,Password reset request,Low,Closed,1

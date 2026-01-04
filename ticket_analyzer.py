@@ -1,5 +1,6 @@
 import pandas as pd
-from src.logger import logger
+
+from logger import logger
 
 
 def analyze_tickets(df: pd.DataFrame) -> dict:
